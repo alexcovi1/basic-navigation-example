@@ -1,0 +1,142 @@
+/* Reset basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Primary Navigation */
+.nav-container {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    height: 85px;
+    width: 100%;
+}
+
+.logo {
+    height: 100%;
+    width: auto;
+}
+
+/* Primary nav */
+.primary-nav {
+    list-style: none;
+    display: flex;
+}
+
+.primary-nav li {
+    margin-right: 20px;
+}
+
+.primary-nav a {
+    color: lightblue;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.primary-nav a:hover {
+    color: lightgreen;
+}
+
+/* Main Content */
+.content {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    height: calc(100vh - 70.7px); /* Adjust height to fill the screen */
+}
+
+/* Main box (70% width) */
+.main-content {
+    background-color: white;
+    width: 70%;
+    padding: 20px;
+    text-align: center;
+}
+
+.main-content h1 {
+    font-size: 24px;
+    color: black;
+}
+
+/* Side navigation (30% width) */
+.side-nav {
+    background-color: #333;
+    height:605px;
+    width: 30%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.side-nav h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.secondary-nav {
+    list-style: none;
+    text-align: center;
+}
+
+.secondary-nav li {
+    margin-bottom: 10px;
+}
+
+.secondary-nav a {
+    color: lightblue;
+    text-decoration: none;
+}
+
+.secondary-nav a:hover {
+    color: lightgreen;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footer-nav li {
+    margin: 0 10px;
+}
+
+.footer-nav a {
+    color: lightblue;
+    text-decoration: none;
+}
+
+.footer-nav a:hover {
+    color: lightgreen;
+}
+
+/* Footer separator line */
+footer hr {
+    border: 1px solid gray;
+    width: 100%; /* Extend line to full width */
+    margin: 10px auto; /* Center the line */
+}
+
+/* Footer text */
+footer p {
+    font-size: 12px;
+    margin-top: 10px;
+}
