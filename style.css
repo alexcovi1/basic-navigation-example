@@ -12,17 +12,17 @@ body {
 /* Primary Navigation */
 .nav-container {
     background-color: black;
-    display: flex;
+    display: inline-flex; /* with flex goes on the right why? */
     justify-content: space-between;
     align-items: center;
     padding: 5px;
-    height: 85px;
+    height: 70px;
     width: 100%;
 }
 
 .logo {
-    height: 100%;
-    width: auto;
+    height:80%;
+    width: 100px;
 }
 
 /* Primary nav */
@@ -49,31 +49,31 @@ body {
 .content {
     display: flex;
     width: 100%;
-    padding: 20px;
-    height: calc(100vh - 70.7px); /* Adjust height to fill the screen */
+    height: calc(100vh - 75px); /* Adjust height to fill the screen */
 }
 
 /* Main box (70% width) */
 .main-content {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     width: 70%;
     padding: 20px;
     text-align: center;
+    height: 40% ;
 }
 
-.main-content h1 {
+#h1title{
     font-size: 24px;
     color: black;
 }
-
 /* Side navigation (30% width) */
 .side-nav {
     background-color: #333;
-    height:605px;
-    width: 30%;
+    height: 100%;
+    width: 35%;
     padding: 20px;
-    display: flex;
+    display: inline-block;
     flex-direction: column;
+
 }
 
 .side-nav h2 {
