@@ -13,12 +13,14 @@
     padding: 32px 32px;
     max-height: 90px;
     background: #1f1f1f;
+    
 }
 
 .logo {
     width:10%;
     margin-left: 20px;
     margin-top: 0px;
+    display: inline-block;
 }
 
 
@@ -27,7 +29,9 @@
 .primary-nav {
     list-style: none;
     margin-left: 90%;
-    margin-top: -50px;
+  display: inline-block;
+  text-align: center;
+  padding: 30px;
    
 
 }
